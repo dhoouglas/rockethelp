@@ -3,7 +3,7 @@ import { useFonts, Roboto_400Regular, Roboto_700Bold} from '@expo-google-fonts/r
 
 import { THEME } from './src/styles/theme';
 
-import { SignIn } from './src/screens/SingIn';
+import { Register } from './src/screens/Register';
 import { Loading } from './src/components/Loading';
 
 
@@ -17,7 +17,7 @@ export default function App() {
         translucent
       />
 
-      { fontsLoaded ? <SignIn /> : <Loading/> }
+      { fontsLoaded ? <Register /> : <Loading/> }
     </NativeBaseProvider>
     
   );
