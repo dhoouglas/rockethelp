@@ -16,6 +16,7 @@ import { Order, OrderProps } from '../components/Order';
 import { Loading } from '../components/Loading';
 
 
+
 export function Home() {
     const [isLoading, setIsLoading] = useState(true);
     const [statusSelected, setStatusSelected] = useState<'open' | 'closed'>('open');
