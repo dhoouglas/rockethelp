@@ -40,7 +40,7 @@ export function SignIn () {
                 return Alert.alert('Entrar', 'Usuário não cadastrado.');
             }
 
-            
+            return Alert.alert('Entrar', 'Não foi possível acessar.');
         });
 
         
